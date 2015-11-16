@@ -3,7 +3,7 @@
 Plugin Name: HeadSpace2
 Plugin URI: http://urbangiraffe.com/plugins/headspace2/
 Description: Meta-data manager on steroids, allowing complete control over all SEO needs such as keywords/tags, titles, description, stylesheets, and many many other goodies.
-Version: 3.6.41
+Version: 3.6.42
 Author: John Godley
 Author URI: http://urbangiraffe.com/
 ============================================================================================================
