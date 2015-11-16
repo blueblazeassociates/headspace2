@@ -42,7 +42,7 @@ class HSM_SiteName extends HSM_Module
 	 **/
 	function option_blogname ($tagline) {
 		global $headspace2;
-		if ($headspace2->ugly_hack !== true)
+		if ( isset( $headspace2->ugly_hack ) && $headspace2->ugly_hack !== true)
 			HeadSpace2::reload ($this);
 
 		if (strlen ($this->blog_name) > 0)

@@ -120,6 +120,10 @@ You can find full details of installing a plugin on the [plugin installation pag
 Full documentation can be found on the [HeadSpace2](http://urbangiraffe.com/plugins/headspace2/) page.
 
 == Changelog ==
+
+= 3.6.42 =
+* Fix drag and drop problem with WP 3.5
+
 = 3.6.41 =
 * Fix problem with 'plugins' module causing post edit page to stop loading fully
 
