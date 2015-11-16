@@ -1,0 +1,40 @@
+{
+  "name" : "blueblazeassociates/headspace2",
+  "description" : "Meta-data manager on steroids, allowing complete control over all SEO needs such as keywords/tags, titles, description, stylesheets, and many many other goodies.",
+  "type" : "wordpress-plugin",
+  "homepage" : "http://urbangiraffe.com/plugins/headspace2/",
+  "license" : "GPL-2.0+",
+  "authors" : [{
+    "name" : "John Godley",
+    "homepage" : "http://urbangiraffe.com/",
+    "role" : "Author/Creator"
+  }, {
+    "name" : "Ed Gifford",
+    "homepage" : "http://www.blueblazeassociates.com",
+    "role" : "Composer-fier",
+    "email" : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "keywords" : [
+    "analytics",
+    "awstats",
+    "crazyegg",
+    "feedburner",
+    "google",
+    "head",
+    "keywords",
+    "meta",
+    "meta-data",
+    "page",
+    "piwik",
+    "Post",
+    "seo",
+    "tagging",
+    "tags",
+    "title",
+    "webmaster"
+  ],
+  "replace": {
+    "wpackagist-plugin/headspace2" : "3.6.41"
+  }
+}
