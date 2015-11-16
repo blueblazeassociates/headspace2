@@ -328,7 +328,7 @@ class HeadSpace2 extends HeadSpace_Plugin
 		echo '</pre>';
 	}
 
-	function &get () {
+	static function &get () {
     static $instance;
 
     if (!isset ($instance)) {

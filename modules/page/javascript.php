@@ -25,7 +25,7 @@ class HSM_JavaScript extends HSM_Module
 {
 	var $scripts = null;
 
-	function load ($meta) {
+	function load ($meta = '') {
 		// Extract settings from $meta and $options
 		if (isset ($meta['scripts'])) {
 			$this->scripts = $meta['scripts'];

@@ -31,7 +31,7 @@ class HSM_Stylesheet extends HSM_Module
 			$this->disable = $options['disable'];
 	}
 
-	function load ($meta) {
+	function load ($meta = '') {
 		// Extract settings from $meta and $options
 		if (isset ($meta['stylesheets'])) {
 			$this->stylesheets = $meta['stylesheets'];
@@ -40,7 +40,7 @@ class HSM_Stylesheet extends HSM_Module
 		}
 	}
 
-	function init () {
+	function init ($args) {
 	}
 
 	function head () {

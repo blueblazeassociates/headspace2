@@ -31,7 +31,7 @@ class HSM_Description extends HSM_Module
 			$this->max_length = $options['length'];
 	}
 
-	function load ($meta) {
+	function load ($meta = '') {
 		// Extract settings from $meta and $options
 		if (isset ($meta['description']))
 			$this->description = $meta['description'];

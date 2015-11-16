@@ -59,7 +59,7 @@ class HSM_PageTitle extends HSM_Module
 	}
 
 
-	function load ($meta) {
+	function load ($meta = '') {
 		if (isset ($meta['page_title']))
 			$this->page_title = $meta['page_title'];
 	}

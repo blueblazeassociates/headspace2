@@ -53,7 +53,7 @@ class HSM_Tags extends HSM_Module
 			$this->disable_suggest = $options['disable_suggest'];
 	}
 
-	function load ($meta) {
+	function load ($meta = '') {
 		global $post;
 
 		if (is_single () || is_page () || (is_admin () && !defined ('DOING_AJAX') && strpos ($_SERVER['REQUEST_URI'], 'categories.php') === false))
