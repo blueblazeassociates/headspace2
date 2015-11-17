@@ -116,8 +116,7 @@ class HSM_Tags extends HSM_Module
 	}
 
 	function add_tags ($text) {
-		$headspace = HeadSpace2::get ();
-		$headspace->reload ($this);
+		HeadSpace2::reload( $this );
 
 		return $text.get_the_tag_list (__ ('<p>Tags: ', 'headspace'), ', ', '</p>');
 	}

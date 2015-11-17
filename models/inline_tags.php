@@ -22,7 +22,7 @@ For full license details see license.txt
 
 class HS_InlineTags
 {
-	function replace($value, $post) {
+	static function replace($value, $post) {
 		if ( is_array( $value ) || is_object( $value ) )
 			return $value;
 

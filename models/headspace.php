@@ -292,7 +292,7 @@ class HeadSpace2 extends HeadSpace_Plugin
 		}
 	}
 
-	function reload(&$obj) {
+	static function reload(&$obj) {
 		$headspace = HeadSpace2::get ();
 		$obj->load ($headspace->get_current_settings ());
 	}
