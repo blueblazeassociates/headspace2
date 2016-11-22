@@ -25,7 +25,7 @@ class HSM_Module
 {
 	var $headspace = null;
 
-	function HSM_Module($options = array ()) {}
+	function __construct($options = array ()) {}
 	function id() { return strtolower (get_class ($this)); }
 	function run() { }
 	function config($options) { }
@@ -65,7 +65,7 @@ class HSM_ModuleManager
 	var $modules = array ();
 	var $active  = array ();
 
-	function HSM_ModuleManager($active) {
+	function __construct($active) {
 		$available = get_declared_classes ();
 
 		// Load all available module files if on the headspace modules pages

@@ -25,7 +25,7 @@ class HS_SiteModule
 {
 	var $active = false;
 
-	function HS_SiteModule() {}
+	function __construct() {}
 	function id() { return strtolower (get_class ($this)); }
 	function run() { }
 
@@ -62,7 +62,7 @@ class HS_SiteManager
 	var $modules = array ();
 	var $active  = array ();
 
-	function HS_SiteManager($active) {
+	function __construct($active) {
 		// Load all available module files
 		$available = get_declared_classes ();
 

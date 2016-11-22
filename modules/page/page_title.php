@@ -29,7 +29,7 @@ class HSM_PageTitle extends HSM_Module
 	var $position    = 'before';
 	var $max_length  = 0;
 
-	function HSM_PageTitle ($options = array ()) {
+	function __construct ($options = array ()) {
 		if (isset ($options['separator']))
 			$this->separator = $options['separator'];
 

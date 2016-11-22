@@ -38,7 +38,7 @@ class HeadSpace2_Admin extends HeadSpace_Plugin {
 	 *
 	 * @return void
 	 **/
-	function HeadSpace2_Admin() {
+	function __construct() {
 		$this->register_plugin( 'headspace', __FILE__);
 
 		if (is_admin ()) {

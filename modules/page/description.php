@@ -26,7 +26,7 @@ class HSM_Description extends HSM_Module
 	var $description = null;
 	var $max_length  = 150;
 
-	function HSM_Description ($options = array ()) {
+	function __construct ($options = array ()) {
 		if (isset ($options['length']))
 			$this->max_length = $options['length'];
 	}

@@ -30,7 +30,7 @@ class HeadSpace2 extends HeadSpace_Plugin
 	var $site     = null;
 	var $disabled = false;
 
-	function HeadSpace2() {
+	function __construct() {
 		$this->register_plugin( 'headspace', dirname ( __FILE__ ) );
 
 		// Load active modules

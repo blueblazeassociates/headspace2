@@ -33,7 +33,7 @@ class HSM_Tags extends HSM_Module
 	var $disable_suggest = false;
 	var $zone_tag_key = 'QeXfUYfV34GcpUS9TaSfy8kEtcMb8GVMq7Z0hPi1s4rBUQVTU8NSoHApm_m80DJQkkNj29p2Dfc-';
 
-	function HSM_Tags ($options = array ()) {
+	function __construct ($options = array ()) {
 		if (isset ($options['show_post']))
 			$this->show_post = $options['show_post'];
 

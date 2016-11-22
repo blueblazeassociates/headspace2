@@ -26,7 +26,7 @@ class HSM_Stylesheet extends HSM_Module
 	var $stylesheets = array ();
 	var $disable     = false;
 
-	function HSM_Stylesheet ($options = array ()) {
+	function __construct ($options = array ()) {
 		if (isset ($options['disable']))
 			$this->disable = $options['disable'];
 	}
