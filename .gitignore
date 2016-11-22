@@ -7,9 +7,8 @@
 /.buildpath
 /.project
 
-# Exclude composer.phar and helper symlink for composer script.
-/composer
-/composer.phar
+# Exlude composer.lock file.
+/composer.lock
 
 # Exclude composer managed vendor directories.
 /vendor
